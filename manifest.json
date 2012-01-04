@@ -1,6 +1,6 @@
 {
     "name": "Basecamp Browser Shortcut",
-    "version": "0.1",
+    "version": "0.1.1",
     "description": "This app is only a shortcut to your basecamp account.",
     "options_page": "options.html",
     "icons": {
