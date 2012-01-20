@@ -2,10 +2,10 @@
     function open_basecamp(url_to_basecamp){
         window.open("http://" + url_to_basecamp + ".basecamphq.com");
     }
-    var derfarg_basecamp_url = localStorage["derfarg_basecamp_url"];
-    if(!derfarg_basecamp_url){
+    var basecamp_url = localStorage["basecamp_url"];
+    if(!basecamp_url){
         window.open("options.html");
     } else {
-        open_basecamp(derfarg_basecamp_url);
+        open_basecamp(basecamp_url);
     }
 </script>
